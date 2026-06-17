@@ -102,7 +102,7 @@ public class PrestamoLibro extends javax.swing.JFrame {
                         .addComponent(btnLimpiar)
                         .addGap(27, 27, 27)
                         .addComponent(btnCancelar)))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

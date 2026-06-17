@@ -56,23 +56,23 @@ public class MenuBibliotecario extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(98, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(100, 100, 100)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(82, 82, 82))
+                .addContainerGap(112, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 357, Short.MAX_VALUE)
         );
 
         btnCuenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenBiblioteca/member.png"))); // NOI18N
         btnCuenta.setText("Cuenta");
-        btnCuenta.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnCuenta.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btniCerrarSesion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/door_out.png"))); // NOI18N
         btniCerrarSesion.setText("Cerrar Sesion");
-        btniCerrarSesion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniCerrarSesion.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniCerrarSesion.addActionListener(this::btniCerrarSesionActionPerformed);
         btnCuenta.add(btniCerrarSesion);
 
@@ -80,29 +80,29 @@ public class MenuBibliotecario extends javax.swing.JFrame {
 
         btnLibros.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenBiblioteca/documentation.png"))); // NOI18N
         btnLibros.setText("Libros");
-        btnLibros.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLibros.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btniRegistrarlibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/book_add.png"))); // NOI18N
         btniRegistrarlibro.setText("Registar Libro");
-        btniRegistrarlibro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniRegistrarlibro.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniRegistrarlibro.addActionListener(this::btniRegistrarlibroActionPerformed);
         btnLibros.add(btniRegistrarlibro);
 
         btniEliminarLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/book_delete.png"))); // NOI18N
         btniEliminarLibro.setText("Eliminar Libro");
-        btniEliminarLibro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniEliminarLibro.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniEliminarLibro.addActionListener(this::btniEliminarLibroActionPerformed);
         btnLibros.add(btniEliminarLibro);
 
         btniPrestamo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/book_go.png"))); // NOI18N
         btniPrestamo.setText("Prestamo");
-        btniPrestamo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniPrestamo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniPrestamo.addActionListener(this::btniPrestamoActionPerformed);
         btnLibros.add(btniPrestamo);
 
         btniDelvolverLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/book.png"))); // NOI18N
         btniDelvolverLibro.setText("Devolver Libro");
-        btniDelvolverLibro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniDelvolverLibro.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniDelvolverLibro.addActionListener(this::btniDelvolverLibroActionPerformed);
         btnLibros.add(btniDelvolverLibro);
 
@@ -110,23 +110,23 @@ public class MenuBibliotecario extends javax.swing.JFrame {
 
         btnClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenBiblioteca/book (1).png"))); // NOI18N
         btnClientes.setText("Clientes");
-        btnClientes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnClientes.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btniRegistrarCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/user_add.png"))); // NOI18N
         btniRegistrarCliente.setText("Registrar Cliente");
-        btniRegistrarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniRegistrarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniRegistrarCliente.addActionListener(this::btniRegistrarClienteActionPerformed);
         btnClientes.add(btniRegistrarCliente);
 
         btniEliminarCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/user_delete.png"))); // NOI18N
         btniEliminarCliente.setText("Eliminar Cliente");
-        btniEliminarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniEliminarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniEliminarCliente.addActionListener(this::btniEliminarClienteActionPerformed);
         btnClientes.add(btniEliminarCliente);
 
         btniConsultarListado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/database_go.png"))); // NOI18N
         btniConsultarListado.setText("consultar Listado");
-        btniConsultarListado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniConsultarListado.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniConsultarListado.addActionListener(this::btniConsultarListadoActionPerformed);
         btnClientes.add(btniConsultarListado);
 
@@ -137,7 +137,7 @@ public class MenuBibliotecario extends javax.swing.JFrame {
 
         btniGenerarInforme.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenBiblioteca/ebook.png"))); // NOI18N
         btniGenerarInforme.setText("Generar Informe");
-        btniGenerarInforme.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btniGenerarInforme.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btniGenerarInforme.addActionListener(this::btniGenerarInformeActionPerformed);
         btnInformes.add(btniGenerarInforme);
 
