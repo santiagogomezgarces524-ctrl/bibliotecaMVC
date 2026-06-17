@@ -48,13 +48,13 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setText("Email");
 
         txtEmail.setToolTipText("el email que que esta subcripto");
-        txtEmail.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        txtEmail.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Black", 0, 14)); // NOI18N
         jLabel3.setText("contraseña");
 
         btnRegistrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/door_in.png"))); // NOI18N
-        btnRegistrar.setText("Resgistrar");
+        btnRegistrar.setText("Entrar");
         btnRegistrar.addActionListener(this::btnRegistrarActionPerformed);
 
         btnCancelar.setText("Cancelar");
@@ -64,7 +64,7 @@ public class Login extends javax.swing.JFrame {
 
         btnVer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/eye.png"))); // NOI18N
         btnVer.setText("Ver");
-        btnVer.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnVer.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnVer.addActionListener(this::btnVerActionPerformed);
 
         jPanel1.addAncestorListener(new javax.swing.event.AncestorListener() {
